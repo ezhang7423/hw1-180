@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hw1-180"
+version = "0.1.0"
+description = ""
+authors = ["Eddie Zhang <eddie@allthenticate.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.3"
+altair = "^4.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
