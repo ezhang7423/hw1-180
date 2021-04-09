@@ -8,8 +8,10 @@ authors = ["Eddie Zhang <eddie@allthenticate.net>"]
 python = "^3.8"
 pandas = "^1.2.3"
 altair = "^4.1.0"
+jupyterlab = "^3.0.13"
 
 [tool.poetry.dev-dependencies]
+black = {version = "^20.8b1", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
